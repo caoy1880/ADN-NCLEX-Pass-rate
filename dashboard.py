@@ -95,7 +95,7 @@ fig = go.Figure(go.Choropleth(
 
 fig.update_layout(
     margin={"r":0,"t":40,"l":0,"b":0},
-    title=f"NCLEX Pass % by County - {selected_year}",
+    title=f"ADN NCLEX Pass % by County - {selected_year}",
     geo=dict(
         fitbounds="locations",
         visible=True,
