@@ -1,0 +1,15 @@
+# Run the app in headless mode (no local dev mode UI)
+[server]
+headless = true
+
+# Hide the "View source code / Edit this app" button
+[global]
+showCode = false
+
+# Optional: disable usage stats collection
+[browser]
+gatherUsageStats = false
+
+# Optional: set a light theme (can customize further)
+[theme]
+base = "light"
